@@ -2,7 +2,7 @@
   height:56px;
   width:100%;
   position:fixed;
-  top:20;
+  top:0;
   left:0;
   background-color: #703B09;
   display:flex;
@@ -16,4 +16,23 @@
 .Toolbar nav {
   height: 100%;
 
+}
+.ToolbarLogo
+{
+  border-color: cyan;
+  height: 100%;
+  padding-top: 10px;
+}
+
+@media (max-width:499px){
+  .DesktopOnly {
+    display: none;
+  }
+}
+@media (min-width:500px){
+  .DesktopOnly {
+    
+    height: 100%;
+    padding-top: 10px;
+  }
 }
