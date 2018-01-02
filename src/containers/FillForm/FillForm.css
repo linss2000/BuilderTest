@@ -1,0 +1,25 @@
+.FillForm{
+  width:100%;
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 2px 1px #ccc;
+  margin: auto;
+  padding: 10px;
+}
+
+.FillFormField
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+.FillFormField input
+{
+  display: block;
+  padding:5px;
+  margin:  0 5px;
+  width: 200px;
+  border: 1px solid #AA6817
+}
